@@ -1,0 +1,26 @@
+                                      16/04/2025
+Step:-1 
+--> initializing the project and building the file structure.
+
+Step:- 2
+--> setting up the style library (tailwind Css) and just initializing the app with the
+    title hello world
+
+Step:- 3
+--> 1) build the components 
+       note:- 1) one component per file
+    2) what an components?
+    =>  An component is an function that accepts the props object and return the jsx.
+    3) what is py and px?
+    => so py => padding on top and botton y-axis and px => padding on left and right x-axis.
+    4) condition in Navbar?
+    => anytime we talk about the data that changes like condition in navbar we will hold is
+       (either the menu is open or close) here we have condition so the concept that come here
+       is => [state]
+    => so here we will use state that react provide us => useState;
+    => now we will make local variable that hold the value [true or false];
+
+Step:- 4
+--> 1) Building Homescreen where all the product will be displayed.
+    2) build productCard component to hold the product ui to show inside the Homescreen.
+    3) building rating component  
